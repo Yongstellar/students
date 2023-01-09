@@ -23,6 +23,7 @@ urlpatterns = [
 	path('listall/', views.listall),
     path('get_allcookies/', views.index),
     path('index/', views.index),
+    path('', views.index),
     
 	path('post/', views.post), # POST 傳送表單
 	path('post1/', views.post1), #資料新增，資料不驗證
